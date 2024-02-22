@@ -1,0 +1,14 @@
+{
+    "name": "com.bardicbytes.bardicunity",
+    "rootNamespace": "BardicBytes.BardicUnity",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

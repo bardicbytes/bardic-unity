@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 508511ed494b10a4892ca6e0826b3eba, type: 3}
+  m_Name: Demo-Builder_Dev_Windows
+  m_EditorClassIdentifier: 
+  onEnvirontmentChange:
+    m_PersistentCalls:
+      m_Calls: []
+  onPreBuild:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: ef9f987f4e622974a9b6966503903c2c, type: 2}
+        m_TargetAssemblyTypeName: BardicBytes.BardicUnityEditor.DemoAsset, Assembly-CSharp
+        m_MethodName: PrintDemoText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPostBuild:
+    m_PersistentCalls:
+      m_Calls: []
+  devBuild: 1
+  deepProfiling: 0
+  scriptDebugging: 0
+  scenes:
+  - {fileID: 102900000, guid: 88996352ac5d50845b8b63c5800cb40b, type: 3}
+  target: 5
+  group: 1
+  defines:
+  - EXAMPLE_SYMBOL
+  fileName: demo.exe
+  path: 

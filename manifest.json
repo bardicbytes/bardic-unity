@@ -1,0 +1,30 @@
+  {
+    "name": "com.bardicbytes.bardicunity",
+    "version": "0.2.2",
+    "displayName": "BardicUnity",
+    "description": "Core scripts and utilities for any unity project.",
+    "unity": "2022.3",
+    "unityRelease": "0b5",
+    "documentationUrl": "https://github.com/bardicbytes/bardic-unity/blob/main/Documentation~/getting-started.md",
+    "changelogUrl": "https://github.com/bardicbytes/bardic-unity/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/bardicbytes/bardic-unity/blob/main/LICENSE.md",
+   "keywords": [
+      "unity",
+      "utilities",
+      "editor",
+      "tools"
+    ],
+    "author": {
+      "name": "Bardic Bytes LLC",
+      "email": "alex@bardicbytes.com",
+      "url": "https://www.bardicbytes.com"
+    },
+    "samples": [
+      {
+          "displayName": "Demo",
+          "description": "a simple demonstration of all features",
+          "path": "Samples~/Demo"
+      }
+    ]
+  }
+  
